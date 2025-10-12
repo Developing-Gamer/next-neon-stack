@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 import { useUser } from "@stackframe/stack";
 import { AuthenticatedView } from "@/components/AuthenticatedView";
@@ -8,8 +8,6 @@ export default function Home() {
   const user = useUser();
 
   return (
-    <>
-      {user ? <AuthenticatedView user={user} /> : <UnauthenticatedView />}
-    </>
+    <>{user ? <AuthenticatedView user={user} /> : <UnauthenticatedView />}</>
   );
 }

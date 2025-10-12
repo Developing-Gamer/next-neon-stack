@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 import type { User } from "@stackframe/stack";
 
@@ -7,7 +7,5 @@ interface AuthenticatedViewProps {
 }
 
 export function AuthenticatedView({ user }: AuthenticatedViewProps) {
-  return (
-    <div></div>
-  );
+  return <div></div>;
 }

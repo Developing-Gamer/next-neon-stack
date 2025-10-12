@@ -1,7 +1,5 @@
-'use client';
+"use client";
 
 export function UnauthenticatedView() {
-  return (
-    <div></div>
-  );
+  return <div></div>;
 }
