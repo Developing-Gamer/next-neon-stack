@@ -1,6 +1,8 @@
-# Next.js + Stack Auth + Shadcn UI Starter Template
+🚧 <span style="color: #FFA500;">**CAUTION: IN DEVELOPMENT**</span> 🚧
 
-A modern, production-ready starter template for building secure web applications with Next.js App Router, Stack Auth authentication, and beautiful Shadcn UI components.
+# Next.js + Stack Auth + Shadcn UI + Convex Starter Template
+
+A modern, production-ready starter template for building secure web applications with Next.js App Router, Stack Auth authentication, Shadcn UI components, and Convex for database.
 
 ## Features
 
@@ -139,7 +141,7 @@ The template includes two main view components that you can customize:
 Edit [src/components/AuthenticatedView.tsx](src/components/AuthenticatedView.tsx) to customize what authenticated users see:
 
 ```tsx
-'use client';
+"use client";
 
 import type { User } from "@stackframe/stack";
 
@@ -158,6 +160,7 @@ export function AuthenticatedView({ user }: AuthenticatedViewProps) {
 ```
 
 The `user` object provides access to:
+
 - `user.id` - Unique user identifier
 - `user.displayName` - User's display name
 - `user.primaryEmail` - User's email address
@@ -169,7 +172,7 @@ The `user` object provides access to:
 Edit [src/components/UnauthenticatedView.tsx](src/components/UnauthenticatedView.tsx) to customize the landing page for guests:
 
 ```tsx
-'use client';
+"use client";
 
 export function UnauthenticatedView() {
   return (
@@ -208,7 +211,7 @@ To add additional Shadcn components, visit [ui.shadcn.com](https://ui.shadcn.com
 Use Stack Auth hooks to access user data and authentication state:
 
 ```tsx
-'use client';
+"use client";
 
 import { useUser, useStackApp } from "@stackframe/stack";
 
