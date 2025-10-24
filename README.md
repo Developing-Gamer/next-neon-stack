@@ -1,8 +1,8 @@
 🚧 <span style="color: #FFA500;">**CAUTION: IN DEVELOPMENT**</span> 🚧
 
-# Next.js + Stack Auth + Shadcn UI + Convex Starter Template
+# Next.js + Neon + Stack Auth + Shadcn UI Starter Template
 
-A modern, production-ready starter template for building secure web applications with Next.js App Router, Stack Auth authentication, Shadcn UI components, and Convex for database.
+A modern, production-ready starter template for building secure web applications with Next.js App Router, Stack Auth authentication, Shadcn UI components, and Neon for database.
 
 ## Features
 
